@@ -8,7 +8,7 @@ Minitalk est un projet de l'école 42 qui consiste à créer un programme de com
 - **Communication par signaux** : Envoi de chaînes de caractères bit par bit du client vers le serveur à l'aide de `kill()`.
 - **Gestion des signaux UNIX** : Utilisation de `sigaction` pour le serveur et de `signal` pour le client[cite: 2] afin de décoder et reconstituer les messages.
 - **Accusé de réception (Feedback)** : Le serveur confirme la bonne réception des messages au client via des signaux de retour.
-- **Intégration de la Libft** : Utilisation d'une bibliothèque personnalisée pour la gestion des affichages et conversions[cite: 1, 2, 3].
+- **Intégration de la Libft** : Utilisation d'une bibliothèque personnalisée pour la gestion des affichages et conversions.
 
 ---
 
